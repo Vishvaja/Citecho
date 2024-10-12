@@ -1,22 +1,16 @@
 // App.test.js
 import { render, screen } from '@testing-library/react';
-import { MemoryRouter } from 'react-router-dom';
 import App from './App';
 
-test('renders Header component', () => {
-  render(
-    <MemoryRouter>
-      <App />
-    </MemoryRouter>
-  );
-  expect(screen.getByText(/home/i)).toBeInTheDocument(); // Adjust text if needed
+test('renders the Header component', () => {
+  render(<App />);
+  expect(screen.getByRole('banner')).toBeInTheDocument(); // Assuming Header has role="banner"
 });
 
-test('renders Login page when navigating to /login', () => {
-  render(
-    <MemoryRouter initialEntries={['/login']}>
-      <App />
-    </MemoryRouter>
-  );
+test('renders the Login page when navigating to /login', () => {
+  window.history.pushState({}, 'Login page', '/login'); // Simulate navigation
+
+  render(<App />);
+
   expect(screen.getByText(/login/i)).toBeInTheDocument(); // Adjust text if needed
 });
