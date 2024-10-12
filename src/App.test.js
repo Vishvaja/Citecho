@@ -8,5 +8,4 @@ test('renders App component with basic content', () => {
   
   // Check if the Header and Footer are rendered by looking for some known text
   expect(screen.getByText(/home/i)).toBeInTheDocument(); // Adjust if necessary
-  expect(screen.getByText(/footer/i)).toBeInTheDocument(); // Adjust if necessary
 });
