@@ -1,0 +1,10 @@
+#root, .site-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.site-container {
+    flex: 1;
+    /* Ensures the container fills the height, pushing the footer down */
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://youtu.be/CsKjXaQ7McM",
+    "title": "Title of Video 1",
+    "authors": "Author 1, Author 2",
+    "contentType": "Lecture",
+    "publisher": "Publisher Name",
+    "date": "2023-03-15",
+    "doi": "10.1000/xyz123",
+    "link": "https://example.com/paper1"
+  },
+  {
+    "url": "https://youtu.be/TozWzaE81VI",
+    "title": "Title of Video 2",
+    "authors": "Author 3, Author 4",
+    "contentType": "Documentary",
+    "publisher": "Another Publisher",
+    "date": "2023-01-10",
+    "doi": "10.1000/xyz456",
+    "link": "https://example.com/paper2"
+  },
+  {
+    "url": "https://youtu.be/1zcy94eg0JU",
+    "title": "Title of Video 3",
+    "authors": "Author 7, Author 8",
+    "contentType": "Lecture",
+    "publisher": "Publisher Name",
+    "date": "2023-03-15",
+    "doi": "10.1000/xyz123",
+    "link": "https://example.com/paper3"
+  },
+  {
+    "url": "https://youtu.be/Q4BJsDO2EJg",
+    "title": "Title of Video 4",
+    "authors": "Author 5, Author 6",
+    "contentType": "Documentary",
+    "publisher": "Another Publisher",
+    "date": "2023-01-10",
+    "doi": "10.1000/xyz456",
+    "link": "https://example.com/paper4"
+  },
+  {
+    "url": "https://youtu.be/nTHJTPI9Jlk",
+    "title": "Title of Video 5",
+    "authors": "Author 10, Author 6",
+    "contentType": "Lecture",
+    "publisher": "Publisher Name",
+    "date": "2023-03-15",
+    "doi": "10.1000/xyz123",
+    "link": "https://example.com/paper5"
+  },
+  {
+    "url": "https://youtu.be/0wXL7xPkooc",
+    "title": "Title of Video 6",
+    "authors": "Author 11, Author 14",
+    "contentType": "Documentary",
+    "publisher": "Another Publisher",
+    "date": "2023-01-10",
+    "doi": "10.1000/xyz456",
+    "link": "https://example.com/paper6"
+  }
+]
